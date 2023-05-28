@@ -75,6 +75,7 @@ h2 {
 .main-nav li a:visited{
     text-decoration: none;
     color: #fff;
+    transition: border-bottom .2s;
 }
 .main-nav li a:hover,
 .main-nav li a:active
@@ -85,4 +86,12 @@ h2 {
     height: 120px;
     width: auto;
     float: left;
+}
+.laptop-image{
+    width: 80%;
+}
+.about-heading{
+    color: #000;
+    font-size: 250%;
+    letter-spacing: 2px;
 }
